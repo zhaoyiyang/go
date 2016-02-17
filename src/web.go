@@ -8,6 +8,5 @@ func main() {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("go web! m"))
-	1
+	w.Write([]byte("go web! master"))
 }

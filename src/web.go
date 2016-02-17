@@ -8,5 +8,5 @@ func main() {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("go web! dev"))
+	w.Write([]byte("go web! dev!"))
 }
